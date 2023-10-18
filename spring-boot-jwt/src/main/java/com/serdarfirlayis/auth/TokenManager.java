@@ -24,19 +24,16 @@ public class TokenManager {
                 .compact();
     }
 
-    public boolean tokenValidate(String token){
-        if (getUserFromToken(token) != null && isExpired(token)){
-            return true;
-        }
-        return false;
+    public boolean tokenValidate(String token) {
+        return getUserFromToken(token) != null && isExpired(token);
     }
 
-    public String getUserFromToken(String token){
+    public String getUserFromToken(String token) {
         Claims claims = getClaims(token);
         return claims.getSubject(); // return username
     }
 
-    public boolean isExpired(String token){
+    public boolean isExpired(String token) {
         Claims claims = getClaims(token);
         return claims.getExpiration().before(new Date(System.currentTimeMillis()));
     }
