@@ -14,6 +14,11 @@ This repository contains various sample projects related to the Spring Framework
     - Project Folder: [chat](chat)
     - Detailed Usage Guide: [chat/README.md](chat/README.md)
 
+3. **Spring Boot RabbitMQ Tutorial**
+   - Description: A Spring Boot application that demonstrates how to use RabbitMQ with Spring Boot.
+   - Project Folder: [rabbitmq](rabbitmq)
+   - Detailed Usage Guide: [rabbitmq/README.md](rabbitmq/README.md)
+
 ## How to Use
 
 Each project has its own folder, and there's a README file in each folder that provides detailed usage instructions for that specific project. To access more information about a project, navigate to the project's folder and read the README file.
