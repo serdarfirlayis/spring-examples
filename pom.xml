@@ -18,6 +18,7 @@
         <module>spring-boot-jwt</module>
         <module>chat</module>
         <module>rabbitmq</module>
+        <module>generic-response-structure</module>
     </modules>
     <properties>
 		<java.version>21</java.version>
