@@ -1,5 +1,4 @@
 # Spring Framework Sample Projects
-
 This repository contains various sample projects related to the Spring Framework. Below, you can find information about the projects in this repository.
 
 ## Projects
