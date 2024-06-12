@@ -19,6 +19,11 @@ This repository contains various sample projects related to the Spring Framework
    - Project Folder: [rabbitmq](rabbitmq)
    - Detailed Usage Guide: [rabbitmq/README.md](rabbitmq/README.md)
 
+4. **Spring Boot Generic Api Response Structure Sample**
+   - Description: A Spring Boot Application that demonstrates how to create generic api response structure with Spring Boot.
+   - Project Folder: [generic-response-structure](generic-response-structure)
+   - Detailed Usage Guide: [generic-response-structure/README.md](generic-response-structure/README.md)
+
 ## How to Use
 
 Each project has its own folder, and there's a README file in each folder that provides detailed usage instructions for that specific project. To access more information about a project, navigate to the project's folder and read the README file.
